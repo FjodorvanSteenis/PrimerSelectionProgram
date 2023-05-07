@@ -1,5 +1,11 @@
 # PrimerPickerProgram
 
+Running the program can be done in one of two ways: 
+ - Through the Jupyter notebook present here
+ - Through downloading and running the python script locally 
+
+In both cases the script and features are identical
+
 First, two important packages are loaded, and two files are read.
 
 The packages are:
