@@ -21,7 +21,7 @@ Can’t find primer? First set clamp to 0, then max poly x to 4, then size range
 
 """
 
-import Modules as md
+import Modules2 as md
 import pandas as pd
 import time
 
@@ -35,7 +35,7 @@ Alignment = "GH9Alignment.fas"
 AlignmentDict = md.FastaAlignmentParser(Alignment)
 # AlignmentParser Works!
 
-SelectedLeftPrimers = md.SelectionFunction2(ParsedPrimerList, AlignmentDict, "Left", 1)
+SelectedLeftPrimers = md.SelectionFunction2(ParsedPrimerList, AlignmentDict, "Left", 0)
 SelectedPrimerPairList = md.SelectionFunction2(SelectedLeftPrimers, AlignmentDict, "Right", 0)
 
 
