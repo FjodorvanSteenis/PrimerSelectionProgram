@@ -1,4 +1,4 @@
-# PrimerPickerProgram
+# Primer Selection Program
 
 Running the program can be done in one of two ways: 
  - Through the Jupyter notebook present here
